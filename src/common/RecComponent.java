@@ -28,7 +28,8 @@ package common;
 /**
  * A record component, which has a name, a type and an index.
  *
- * (If running on Java 14, this should be a reord class ;) )
+ * (If running on Java 14+, this should be a record class ;) )
+ *
  * The latter is the index of the record components in the class file's
  * record attribute, required to invoke the record's canonical constructor .
  */
